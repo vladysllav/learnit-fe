@@ -4,7 +4,7 @@ import { AppDispatch, fetchData } from "../src/store/actions/dataActions";
 import "./App.css";
 import { RootState } from "./store/index";
 import NewPage from "../src/pages/NewPage/NewPage";
-import Header from "../src/pages/Header/Header";
+import Header from "../src/components/Header";
 
 import { Route, Routes } from "react-router-dom";
 
@@ -26,11 +26,12 @@ function App() {
   console.log(data, "data");
   return (
     <div className="App">
+      <Header />
+
       {/* Define routes */}
       <main>
         <Routes>
           <Route path="/new" element={<NewPage />} />
-          <Route path="/" element={<Header />} />
         </Routes>
       </main>
     </div>
