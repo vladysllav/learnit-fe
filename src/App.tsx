@@ -5,6 +5,7 @@ import "./App.css";
 import { RootState } from "./store/index";
 import NewPage from "../src/pages/NewPage/NewPage";
 import Header from "../src/pages/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 import { Route, Routes } from "react-router-dom";
 
@@ -33,6 +34,7 @@ function App() {
           <Route path="/" element={<Header />} />
         </Routes>
       </main>
+      <Footer />
     </div>
   );
 }
