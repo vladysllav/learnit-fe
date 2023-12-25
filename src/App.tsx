@@ -4,7 +4,7 @@ import { AppDispatch, fetchData } from "../src/store/actions/dataActions";
 import "./App.css";
 import { RootState } from "./store/index";
 import NewPage from "../src/pages/NewPage/NewPage";
-import Header from "../src/components/Header";
+import Header from "./components/Header/Header";
 
 import { Route, Routes } from "react-router-dom";
 
