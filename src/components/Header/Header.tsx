@@ -87,10 +87,7 @@ const Header = () => {
             <ul className="md:flex items-center justify-center	md:w-full">
               {/* Products */}
               <li className="hoverable hover:text-mainBlue">
-                <a
-                  href="#"
-                  className="relative flex py-6 px-4 lg:p-6 text-sm lg:text-base hover:text-mainBlue"
-                >
+                <p className="relative flex py-6 px-4 lg:p-6 text-sm lg:text-base hover:text-mainBlue">
                   Products
                   <svg
                     aria-hidden="true"
@@ -104,7 +101,7 @@ const Header = () => {
                   >
                     <path d="M5.293 9.707l6 6c0.391 0.391 1.024 0.391 1.414 0l6-6c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
                   </svg>
-                </a>
+                </p>
 
                 <div className="mega-menu md:mt-20px mb-16 sm:mb-0 w-full flex justify-center ">
                   <div className="container mx-auto w-full flex flex-wrap justify-between max-w-globalWidth border-solid border-gray-400 border-[1px] rounded-10px mx-2 p-25px">
@@ -523,10 +520,7 @@ const Header = () => {
 
               {/* Resources */}
               <li className="hoverable hover:text-mainBlue">
-                <a
-                  href="#"
-                  className="menu-box relative flex py-6 px-4 lg:p-6 text-sm lg:text-base hover:text-mainBlue"
-                >
+                <p className="menu-box relative flex py-6 px-4 lg:p-6 text-sm lg:text-base hover:text-mainBlue">
                   Resources
                   <svg
                     aria-hidden="true"
@@ -540,7 +534,7 @@ const Header = () => {
                   >
                     <path d="M5.293 9.707l6 6c0.391 0.391 1.024 0.391 1.414 0l6-6c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
                   </svg>
-                </a>
+                </p>
 
                 <div className="mega-menu md:mt-20px  mb-16 sm:mb-0 w-full flex justify-center ">
                   <div className="container mx-auto w-full flex flex-wrap justify-between max-w-globalWidth border-solid border-gray-400 border-[1px] rounded-10px mx-2 p-25px">
