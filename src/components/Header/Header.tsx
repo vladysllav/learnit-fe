@@ -103,7 +103,7 @@ const Header = () => {
                   </svg>
                 </p>
 
-                <div className="mega-menu md:mt-20px mb-16 sm:mb-0 w-full flex justify-center ">
+                <div className="mega-menu bg-white md:mt-20px mb-16 sm:mb-0 w-full flex justify-center ">
                   <div className="container mx-auto w-full flex flex-wrap justify-between max-w-globalWidth border-solid border-gray-400 border-[1px] rounded-10px mx-2 p-25px">
                     {/* 3 Columns */}
                     <div className="flex w-full">
@@ -368,7 +368,7 @@ const Header = () => {
                   </svg>
                 </a>
 
-                <div className="mega-menu md:mt-20px mb-16 sm:mb-0 w-full flex justify-center ">
+                <div className="mega-menu bg-white md:mt-20px mb-16 sm:mb-0 w-full flex justify-center ">
                   <div className="container mx-auto w-full flex flex-wrap justify-between max-w-globalWidth border-solid border-gray-400 border-[1px] rounded-10px mx-2 p-25px">
                     {/* 2 Columns */}
                     <div className="flex w-full">
@@ -536,7 +536,7 @@ const Header = () => {
                   </svg>
                 </p>
 
-                <div className="mega-menu md:mt-20px  mb-16 sm:mb-0 w-full flex justify-center ">
+                <div className="mega-menu bg-white md:mt-20px  mb-16 sm:mb-0 w-full flex justify-center ">
                   <div className="container mx-auto w-full flex flex-wrap justify-between max-w-globalWidth border-solid border-gray-400 border-[1px] rounded-10px mx-2 p-25px">
                     {/* 2 Columns */}
                     <div className="flex w-full">
