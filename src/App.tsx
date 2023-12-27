@@ -4,7 +4,8 @@ import { AppDispatch, fetchData } from "../src/store/actions/dataActions";
 import "./App.css";
 import { RootState } from "./store/index";
 import NewPage from "../src/pages/NewPage/NewPage";
-import Header from "./components/Header/Header";
+import Header from "../src/pages/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 import { Route, Routes } from "react-router-dom";
 
@@ -34,6 +35,7 @@ function App() {
           <Route path="/new" element={<NewPage />} />
         </Routes>
       </main>
+      <Footer />
     </div>
   );
 }
