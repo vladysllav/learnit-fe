@@ -3,7 +3,12 @@ import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, fetchData } from "../src/store/actions/dataActions";
 import "./App.css";
 import { RootState } from "./store/index";
+
+// Pages Import
 import NewPage from "../src/pages/NewPage/NewPage";
+import PricingPage from "./pages/PricingPage/PricingPage"
+
+// Elements Import
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
@@ -33,6 +38,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/new" element={<NewPage />} />
+          <Route path="/pricing" element={<PricingPage />} />
         </Routes>
       </main>
       <Footer />
