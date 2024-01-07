@@ -511,7 +511,7 @@ const Header = () => {
               {/* Pricing */}
               <li className="hoverable hover:text-mainBlue">
                 <a
-                  href="/products"
+                  href="/pricing"
                   className="relative flex py-6 px-4 lg:p-6 text-sm lg:text-base hover:text-mainBlue"
                 >
                   Pricing

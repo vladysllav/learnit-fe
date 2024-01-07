@@ -8,8 +8,14 @@ module.exports = {
         hoverBlue: '#002EAD',
         headerScroll: '#FAF9F6',
         dark: '#1e1e1e',
+        borderColor: '#4e4e4e',
         yellowBadge: '#F5FE76',
         iconBackground: '#f5f3ef',
+        grey: '#aaa',
+        purple: '#d1bce3',
+        green: '#86afa6',
+        darkGreen: '#1a342e',
+        orange: '#fc440f',
       },
       width: {
         '80%': '80%',
@@ -41,6 +47,9 @@ module.exports = {
         '13px': '13px',
         '15px': '15px',
         '20px': '20px',
+      },
+      backgroundImage: {
+        'pricingOneCta': "url('/src/assets/images/pricingPage/learndash-compact-cta-lavender.jpg')",
       }
     },
   },
